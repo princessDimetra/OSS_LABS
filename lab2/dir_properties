@@ -1,0 +1,7 @@
+.:
+total 4
+d---------. 2 user1 user1 22 Oct 17 20:22 dir
+-rw-rw-rw-. 1 user1 user1  0 Oct 17 20:40 dir_properties.txt
+-r--r-----. 1 root  user1  5 Oct 17 20:18 file
+-rw-------. 1 user1 user1  0 Oct 17 20:35 file1
+-rw-rw-rw-. 1 user1 user1  0 Oct 17 20:35 file2

@@ -1,0 +1,90 @@
+    1  ls
+    2  cd ~
+    3  mkdir test
+    4  cd test
+    5  ls
+    6  touch file
+    7  chmod 000 file
+    8  ll file
+    9  echo "test" << file
+   10  echo "test" >>  file
+   11  cat file
+   12  chmod 200 file
+   13  ll file
+   14  echo "test" >>  file
+   15  cat file
+   16  chmod 250 file
+   17  ll file
+   18  chmod 240 file
+   19  ll file
+   20  cat file
+   21  chmod 340 file
+   22  ll file
+   23  chmod 540 file
+   24  ll file
+   25  chmod 640 file
+   26  ll file
+   27  cat file
+   28  mkdir dir
+   29  ls
+   30  cd dir
+   31  touch new_file
+   32  ls
+   33  echo "file 2" << file
+   34  echo "file 2" >>  file
+   35  ls
+   36  rm file
+   37  echo "file 2" >>  new_file
+   38  cat new_file
+   39  cd.
+   40  cd .
+   41  ls
+   42  cd ..
+   43  ls
+   44  chmod 000 dir
+   45* 
+   46  cat ./dir/newfile
+   47  rm ./dir/newfile
+   48  cat ./dir/new_file
+   49  rm ./dir/new_file
+   50  chown root chown root file
+   51  ls -l
+   52  chown root file
+   53  man shown
+   54  man <chown>
+   55  -h chown
+   56  --help chown
+   57  chown -h
+   58  --h chown
+   59  fchown root file
+   60  chown root file
+   61  ls
+   62  file
+   63  ls file
+   64  chown root ./dir/file
+   65  chown root:root ./dir/file
+   66  umask 600
+   67  touch file1
+   68  ll file1
+   69  rm file1
+   70  umask 006
+   71  touch file1
+   72  ll file1
+   73  rm file1
+   74  umask 066
+   75  touch file1
+   76  ll file1
+   77  umask 000
+   78  touch file2
+   79  ll file2
+   80  su
+   81  cat file
+   82  su
+   83  cat file
+   84  ls -lR
+   85  history
+   86  ls -lR > dir_properties.txt
+   87  ls
+   88  ls dir_properties.txt
+   89  cat dir_properties.txt
+   90  history > commandline_history.txt
